@@ -36,7 +36,8 @@ Usage
     stopwords = ["。"]
     kongming = Kongming(stopwords)
     arrows = kongming.collect("今日は良い天気だ。")
-    print(arrows)  # => [{'modifier': '今日', 'function': 'は', 'head': '天気'}, {'modifier': '良い', 'function': '', 'head': '天気'}]
+    print(arrows)  # => [{'modifier': '今日', 'function': 'は', 'head': '天気'},
+                         {'modifier': '良い', 'function': '', 'head': '天気'}]
 
 Credits
 -------
