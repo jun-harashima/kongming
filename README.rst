@@ -16,9 +16,6 @@ kongming
 
 Collect arrows from parsing results.
 
-Quick Start
-===========
-
 Installation
 ------------
 
