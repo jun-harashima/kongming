@@ -1,5 +1,5 @@
 import unittest
-from kongming.kongming import Kongming
+from kongming.main import Kongming
 
 
 class TestKongming(unittest.TestCase):

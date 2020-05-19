@@ -14,19 +14,29 @@ kongming
         :alt: Documentation Status
 
 
-
-
 Collect arrows from parsing results.
 
+Quick Start
+===========
 
-* Free software: MIT license
-* Documentation: https://kongming.readthedocs.io.
+Installation
+------------
 
+.. code-block:: bash
 
-Features
---------
+   $ pip install kongming
 
-* TODO
+Usage
+-----
+
+.. code-block:: python
+
+    from kongming.main import Komgming
+
+    stopwords = ["。"]
+    kongming = Kongming(stopwords)
+    arrows = kongming.collect("今日は良い天気だ。")
+    print(arrows)  # => [{'modifier': '今日', 'function': 'は', 'head': '天気'}, {'modifier': '良い', 'function': '', 'head': '天気'}]
 
 Credits
 -------
