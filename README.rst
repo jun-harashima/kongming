@@ -28,7 +28,7 @@ Usage
 
 .. code-block:: python
 
-    from kongming.main import Komgming
+    from kongming.main import Kongming
 
     stopwords = ["。"]
     kongming = Kongming(stopwords)
